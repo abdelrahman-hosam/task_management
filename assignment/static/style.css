@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #ecedef;
+    text-align: center;
+}
+h1{
+    color: #5f6266;
+    text-transform: capitalize;
+
+}
+.input input{
+    border: none;
+    background-color: #ecedef;
+    border-bottom: 1px solid #5f6266;
+    transition: step-start;
+}
+.input input:focus{
+    outline: none;
+}
+.input button{
+    border-radius: 5px;
+    cursor: pointer;
+    color: #5f6266;
+    border: none;
+    border: 1px solid #5f6266;
+}
+#tasks{
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+#tasks .card{
+    width: 50%;
+    background-color: #929285;
+    border-radius: 12px;
+    padding: 10px;
+    max-width: 300px;
+}
+#tasks button{
+    margin-right: 2px;
+}
